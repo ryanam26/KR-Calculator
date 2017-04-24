@@ -11,6 +11,7 @@ function squirt(id) {
   document.calc.result.value+=id;
 }
 
+// Create readCookie
 function createCookie(name,value,days) {
   if (days) {
     var date = new Date();
@@ -23,6 +24,7 @@ function createCookie(name,value,days) {
   document.cookie = name + "=" + value + expires + "; path=/";
 }
 
+// Read cookie
 function readCookie(name) {
   var nameEQ = name + "=";
   var ca = document.cookie.split(';');
@@ -65,6 +67,7 @@ function updateCookie(name, value) {
 window.onload = function() {
   displayCalculationHistory();
 }
+
 
 
 // Calculates input values
