@@ -1,25 +1,7 @@
-# README
+This is a Calculator exercise for Kaufman Rossin.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The application can be cloned from Github and ran on local server.
 
-Things you may want to cover:
+Bootstrap was used to assist with the look and feel of the calculator.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# KR-Calculator
+Jquery and javascript was used for the functionality of the calculator and storing the last 10 calculations.
