@@ -12,12 +12,12 @@
  *
  */
 
-  @import "bootstrap";
+@import "bootstrap";
 
 body {
 background: #83a4d4; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #83a4d4 , #b6fbff); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+background: linear-gradient(to left, #83a4d4 , #b6fbff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 input{
   border: none;
@@ -63,16 +63,34 @@ button {
   margin: 10px 2px;
   font-size: 16px;
   font-weight: bold;
-  
+
 
 background: #8e9eab; /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+
   box-shadow: 0px 4px  #000099 inset;
-  
+
 }
 small {
   color: #fff;
   font-weight: bold;
+}
+
+.col-md-4 > .calcBG, .col-md-4 > .calcHistoryBG {
+  width: 65%;
+}
+
+.calcHistoryBG {
+  background-color: #0000CC;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: inset 1px 1px 50px #000;
+  color: #fff;
+}
+
+#calculationHistory {
+  margin-top: 1%;
 }
